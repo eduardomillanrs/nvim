@@ -1,5 +1,6 @@
 return {
     "ibhagwan/fzf-lua",
+    enabled = false,
     keys = {
         { "<C-f>", function () require("fzf-lua").files() end,     desc = "Open fzf files" },
         { "<C-g>", function () require("fzf-lua").live_grep() end, desc = "Open fzf livegrep" },

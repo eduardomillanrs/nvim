@@ -1,5 +1,6 @@
 return {
     "ej-shafran/compile-mode.nvim",
+    enabled      = false,
     version      = "^5.0.0",
     dependencies = { "m00qek/baleia.nvim" },
     init         = function ()

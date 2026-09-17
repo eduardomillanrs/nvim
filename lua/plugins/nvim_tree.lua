@@ -36,6 +36,7 @@ end
 
 return {
     "nvim-tree/nvim-tree.lua",
+    enabled = false,
     lazy   = false,
     opts   = {
         on_attach                          = on_attach,
